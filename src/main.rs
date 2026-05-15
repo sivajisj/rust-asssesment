@@ -1,3 +1,4 @@
+// Section B: API Systems Design
 use axum::{
     extract::State,
     http::StatusCode,
@@ -9,7 +10,6 @@ use serde::{Deserialize, Serialize};
 use std::collections::HashSet;
 use std::sync::{Arc, Mutex};
 
-// Section B: API Systems Design
 
 //Request type, 
 #[derive(Deserialize)]
